@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import ComputedValue from '../views/ComputedValue.vue'
+import Props from '../views/Props.vue'
 
 const routes = [
   {
@@ -7,6 +9,16 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+  {
+    path: '/computed',
+    name: 'computed',
+    component: ComputedValue
+  },
+  {
+    path: '/working-with-props',
+    name: 'props',
+    component: Props
+  }
 ]
 
 const router = createRouter({

@@ -1,6 +1,14 @@
 <template>
+  <nav>
+    <router-link v-bind:to="{ name: 'computed' }">computed</router-link> |
+    <router-link v-bind:to="{ name: 'props' }">props</router-link>
+  </nav>
   <router-view/>
 </template>
+
+<script>
+
+</script>
 
 <style>
 #app {
