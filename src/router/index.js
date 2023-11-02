@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ComputedValue from '../views/ComputedValue.vue'
-import Props from '../views/Props.vue'
+import Posts from '../views/Posts.vue'
 
 const routes = [
   {
@@ -15,9 +15,9 @@ const routes = [
     component: ComputedValue
   },
   {
-    path: '/working-with-props',
-    name: 'props',
-    component: Props
+    path: '/post-list',
+    name: 'postlist',
+    component: Posts
   }
 ]
 

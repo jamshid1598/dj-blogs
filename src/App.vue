@@ -1,7 +1,8 @@
 <template>
   <nav>
+    <router-link v-bind:to="{ name: 'home' }">home</router-link> |
     <router-link v-bind:to="{ name: 'computed' }">computed</router-link> |
-    <router-link v-bind:to="{ name: 'props' }">props</router-link>
+    <router-link v-bind:to="{ name: 'postlist' }">post-list</router-link>
   </nav>
   <router-view/>
 </template>
